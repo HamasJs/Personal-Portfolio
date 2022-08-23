@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* position: relative; */
+  /* width: 1440px;
+    height: 2345px; */
+  background: #222738;
+}
+
+.navbar {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  margin-right: 93px;
+  text-decoration: none;
+  color: white;
+}
+
+.home {
+  margin-left: 14px;
+}
+
+.logo {
+  margin-right: 179.29px;
+  margin-left: 45px;
+}
+
+.sign-in {
+  color: white;
+  background-color: #222738;
+  border: 0.5px solid white;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: lighter;
+  float: right;
+  margin-right: 53px;
+  margin-top: 7px;
+}
+
+.Search {
+  /* position: absolute; */
+  width: 358.86px;
+  height: 48px;
+  border-radius: 10px;
+  margin-right: 13.14px;
+  margin-left: 117px;
+}
+
+.main-text {
+  position: absolute;
+  width: 710px;
+  height: 0px;
+  left: 410px;
+  top: 430px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 77px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.main-img {
+  position: absolute;
+  width: 738px;
+  height: 546px;
+  left: 1065px;
+  top: 350px;
+}
+.small-text {
+  position: absolute;
+  left: 600px;
+  top: 530px;
+  color: white;
+  font-size: x-large;
+}
+.buttons {
+  display: flex;
+  position: absolute;
+  height: 40px;
+  left: calc(50% - 93px / 2 - 242.5px);
+  top: 590px;
+}
+
+.sign {
+  color: white;
+  background-color: #222738;
+  border: 0.5px solid white;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: lighter;
+  margin-right: 20px;
+}
+
+button:hover {
+  background-color: #0cbc8b;
+  color: black;
+}
+.project-heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
+}
+.mid {
+  margin-top: 900px;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+}
+.project-1 {
+  padding: 50px;
+}
+.project-image {
+  width: 315px;
+  height: 208px;
+  border-radius: 6px;
+}
+.project-text {
+  width: 315px;
+  height: 60x;
+  background: rgba(18, 129, 204, 0.23);
+  border-radius: 6px;
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  padding-top: 10px;
+}
+
+.second-heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.skill-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-left: 5px;
+  width: 320px;
+  height: 57px;
+}
+
+.circle {
+  margin-left: 92px;
+  margin-top: 30px;
+}
+
+.skills {
+  padding: 60px 100px;
+}
+
+.SKILLS {
+  display: flex;
+  justify-content: center;
+}
